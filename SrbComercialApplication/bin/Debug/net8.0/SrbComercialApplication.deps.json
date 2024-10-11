@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SrbComercialApplication/1.0.0": {
+        "dependencies": {
+          "SrbComercialDomain": "1.0.0"
+        },
+        "runtime": {
+          "SrbComercialApplication.dll": {}
+        }
+      },
+      "SrbComercialDomain/1.0.0": {
+        "runtime": {
+          "SrbComercialDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SrbComercialApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SrbComercialDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

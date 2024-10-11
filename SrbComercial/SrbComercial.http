@@ -1,0 +1,6 @@
+@SrbComercial_HostAddress = http://localhost:5062
+
+GET {{SrbComercial_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\bin\Debug\net8.0\SrbComercialDomain.deps.json
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\bin\Debug\net8.0\SrbComercialDomain.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\bin\Debug\net8.0\SrbComercialDomain.pdb
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.AssemblyInfoInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.AssemblyInfo.cs
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.csproj.CoreCompileInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\refint\SrbComercialDomain.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.pdb
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\ref\SrbComercialDomain.dll

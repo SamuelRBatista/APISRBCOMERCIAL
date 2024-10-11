@@ -1,0 +1,15 @@
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\bin\Debug\net8.0\SrbComercialApplication.deps.json
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\bin\Debug\net8.0\SrbComercialApplication.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\bin\Debug\net8.0\SrbComercialApplication.pdb
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\bin\Debug\net8.0\SrbComercialDomain.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\bin\Debug\net8.0\SrbComercialDomain.pdb
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.csproj.AssemblyReference.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.AssemblyInfoInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.AssemblyInfo.cs
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.csproj.CoreCompileInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComer.038E1A6A.Up2Date
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\refint\SrbComercialApplication.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.pdb
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\ref\SrbComercialApplication.dll
