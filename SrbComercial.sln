@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SrbComercialDomain", "SrbCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SrbComercialInfrastructure", "SrbComercialInfrastructure\SrbComercialInfrastructure.csproj", "{1A02426A-D745-4313-AD59-EE30F7771132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrbComercialApplication", "SrbComercialApplication\SrbComercialApplication.csproj", "{5A3328D5-9276-4946-A113-DC2544F6BCD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SrbComercialApplication", "SrbComercialApplication\SrbComercialApplication.csproj", "{5A3328D5-9276-4946-A113-DC2544F6BCD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrbComercial.Tests", "SrbComercial.Tests\SrbComercial.Tests.csproj", "{9296DE07-9B2B-4C0D-8059-0F20D9380AE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5A3328D5-9276-4946-A113-DC2544F6BCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A3328D5-9276-4946-A113-DC2544F6BCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A3328D5-9276-4946-A113-DC2544F6BCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9296DE07-9B2B-4C0D-8059-0F20D9380AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9296DE07-9B2B-4C0D-8059-0F20D9380AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9296DE07-9B2B-4C0D-8059-0F20D9380AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9296DE07-9B2B-4C0D-8059-0F20D9380AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,3 +48,4 @@ C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbCome
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.pdb
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.genruntimeconfig.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\ref\SrbComercial.dll
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.sourcelink.json
