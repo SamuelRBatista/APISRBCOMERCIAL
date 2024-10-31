@@ -13,10 +13,10 @@ C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbCome
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.AssemblyInfoInputs.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.AssemblyInfo.cs
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.sourcelink.json
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComer.3FCE8273.Up2Date
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.dll
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\refint\SrbComercialInfrastructure.dll
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.pdb
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.genruntimeconfig.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\ref\SrbComercialInfrastructure.dll
-C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialInfrastructure\obj\Debug\net8.0\SrbComercialInfrastructure.sourcelink.json
