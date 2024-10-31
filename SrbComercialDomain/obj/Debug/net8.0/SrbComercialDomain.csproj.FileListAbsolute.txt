@@ -5,8 +5,8 @@ C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbCome
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.AssemblyInfoInputs.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.AssemblyInfo.cs
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.csproj.CoreCompileInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.sourcelink.json
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.dll
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\refint\SrbComercialDomain.dll
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.pdb
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\ref\SrbComercialDomain.dll
-C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialDomain\obj\Debug\net8.0\SrbComercialDomain.sourcelink.json
