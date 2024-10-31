@@ -17,7 +17,7 @@ namespace SrbComercial.Controllers.Categories
         }
 
         // GET: api/category
-        [HttpGet(Name = "GetCategory"),Authorize]
+        [HttpGet(Name = "GetCategory")]
         public IActionResult Index()
         {
             var categories = _unitOfWork.Category.GetAll();

@@ -18,7 +18,7 @@ namespace SrbComercial.Controllers.Products
         }
 
         // GET: api/product
-        [HttpGet(Name = "GetProduct"), Authorize]
+        [HttpGet]
         public IActionResult Index()
         {
             var products = _unitOfWork.Product.GetAll(includeProperties: "Category");
@@ -38,7 +38,7 @@ namespace SrbComercial.Controllers.Products
         }
 
         // POST: api/product
-        [HttpPost(Name = "CreateProduct"), Authorize]
+        [HttpPost]
         public IActionResult Create([FromBody] Product product)
         {
             if (product == null)
@@ -54,7 +54,7 @@ namespace SrbComercial.Controllers.Products
             return CreatedAtAction(nameof(Index), new { id = product.Id }, product);
         }
 
-        [HttpPut("{id}",Name = "UpdateProduct"), Authorize]
+        [HttpPut("{id}",Name = "UpdateProduct")/*, Authorize*/]
         public IActionResult Update(int id, Product product)
         {
             if (id != product.Id)
@@ -78,29 +78,8 @@ namespace SrbComercial.Controllers.Products
             }
         }
 
-        // PUT: api/product/{id}
-        //[HttpPut("{id}")]
-        //public IActionResult Update(int id, [FromBody] Product product)
-        //{
-        //    if (product == null || product.Id != id)
-        //    {
-        //        return BadRequest("Product data is invalid.");
-        //    }
-
-        //    var existingProduct = _unitOfWork.Product.Get(p => p.Id == id);
-        //    if (existingProduct == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _unitOfWork.Product.Update(product);
-        //    _unitOfWork.Save();
-
-        //    return NoContent();
-        //}
-
         // DELETE: api/product/{id}
-        [HttpDelete("{id}",Name = "DeleteProduct"), Authorize]
+        [HttpDelete("{id}",Name = "DeleteProduct")/*, Authorize*/]
         public IActionResult Delete(int id)
         {
             var product = _unitOfWork.Product.Get(p => p.Id == id);

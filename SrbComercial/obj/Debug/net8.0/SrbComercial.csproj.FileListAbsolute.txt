@@ -34,6 +34,7 @@ C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbCome
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.csproj.CoreCompileInputs.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.sourcelink.json
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\staticwebassets\msbuild.SrbComercial.Microsoft.AspNetCore.StaticWebAssets.props
@@ -48,4 +49,3 @@ C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbCome
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.pdb
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.genruntimeconfig.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\ref\SrbComercial.dll
-C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercial\obj\Debug\net8.0\SrbComercial.sourcelink.json
