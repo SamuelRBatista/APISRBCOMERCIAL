@@ -8,9 +8,9 @@ C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbCome
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.AssemblyInfoInputs.cache
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.AssemblyInfo.cs
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.csproj.CoreCompileInputs.cache
+C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.sourcelink.json
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComer.038E1A6A.Up2Date
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.dll
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\refint\SrbComercialApplication.dll
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.pdb
 C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\ref\SrbComercialApplication.dll
-C:\Users\Samuel R Batista\Desktop\1_Workspace-Dev\C#\1-Apis\SrbComercial\SrbComercialApplication\obj\Debug\net8.0\SrbComercialApplication.sourcelink.json
