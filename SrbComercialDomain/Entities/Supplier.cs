@@ -15,8 +15,8 @@ public class Supplier {
     [JsonIgnore]
     public virtual City? City{ get; set; }
 
-    // public int StateId {get; set;}
+    public int StateId {get; set;}
 
-    // [JsonIgnore]
-    // public virtual State? State { get; set; } // Referência ao estado
+    [JsonIgnore]
+    public virtual State? State { get; set; } // Referência ao estado
 }
