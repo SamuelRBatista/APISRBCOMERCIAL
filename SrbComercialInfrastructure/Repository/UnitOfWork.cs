@@ -18,16 +18,21 @@ namespace SrbComercialInfrastructure.Repository
 
         public ICityRepository City { get; private set; }
 
+        public IStateRepository State { get; private set; }
+
         public ISupplierRepository Supplier { get; private set; }
 
         public IClientRepository Client {get; private set;}
+
+       
 
         public UnitOfWork(DataContext db)
         {
             _db = db;
             Product = new ProductRepository(_db);
             Category = new CategoryRepository(_db); 
-            City = new CityRepository(_db); 
+            City = new CityRepository(_db);
+            State = new StateRepository(_db);
             Supplier = new SupplierRepository(_db);
             Client = new ClientRepository(_db);
         }

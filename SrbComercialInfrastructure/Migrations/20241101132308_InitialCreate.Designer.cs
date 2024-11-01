@@ -11,8 +11,8 @@ using SrbComercialInfrastructure.Data;
 namespace SrbComercialInfrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241009131416_AjustProductAndCategoryAjustSupplierStateAndCity")]
-    partial class AjustProductAndCategoryAjustSupplierStateAndCity
+    [Migration("20241101132308_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -247,6 +247,42 @@ namespace SrbComercialInfrastructure.Migrations
                     b.ToTable("Cities");
                 });
 
+            modelBuilder.Entity("SrbComercialDomain.Entities.Client", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Cep")
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Cpf")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("StateId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CityId");
+
+                    b.HasIndex("StateId");
+
+                    b.ToTable("Clients");
+                });
+
             modelBuilder.Entity("SrbComercialDomain.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -291,15 +327,10 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Property<string>("Acronym")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("CityId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CityId");
 
                     b.ToTable("States");
                 });
@@ -315,6 +346,9 @@ namespace SrbComercialInfrastructure.Migrations
 
                     b.Property<string>("Cep")
                         .HasColumnType("longtext");
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Cnpj")
                         .HasColumnType("longtext");
@@ -332,6 +366,8 @@ namespace SrbComercialInfrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CityId");
 
                     b.HasIndex("StateId");
 
@@ -400,6 +436,25 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Navigation("State");
                 });
 
+            modelBuilder.Entity("SrbComercialDomain.Entities.Client", b =>
+                {
+                    b.HasOne("SrbComercialDomain.Entities.City", "City")
+                        .WithMany()
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("SrbComercialDomain.Entities.State", "State")
+                        .WithMany()
+                        .HasForeignKey("StateId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("City");
+
+                    b.Navigation("State");
+                });
+
             modelBuilder.Entity("SrbComercialDomain.Entities.Product", b =>
                 {
                     b.HasOne("SrbComercialDomain.Entities.Category", "Category")
@@ -411,20 +466,21 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("SrbComercialDomain.Entities.State", b =>
-                {
-                    b.HasOne("SrbComercialDomain.Entities.City", null)
-                        .WithMany("States")
-                        .HasForeignKey("CityId");
-                });
-
             modelBuilder.Entity("SrbComercialDomain.Entities.Supplier", b =>
                 {
+                    b.HasOne("SrbComercialDomain.Entities.City", "City")
+                        .WithMany()
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("SrbComercialDomain.Entities.State", "State")
-                        .WithMany("Suppliers")
+                        .WithMany()
                         .HasForeignKey("StateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("City");
 
                     b.Navigation("State");
                 });
@@ -434,16 +490,9 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("SrbComercialDomain.Entities.City", b =>
-                {
-                    b.Navigation("States");
-                });
-
             modelBuilder.Entity("SrbComercialDomain.Entities.State", b =>
                 {
                     b.Navigation("Cities");
-
-                    b.Navigation("Suppliers");
                 });
 #pragma warning restore 612, 618
         }

@@ -259,7 +259,7 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Property<int>("CityId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Cnpj")
+                    b.Property<string>("Cpf")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Email")
@@ -268,9 +268,14 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
+                    b.Property<int>("StateId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CityId");
+
+                    b.HasIndex("StateId");
 
                     b.ToTable("Clients");
                 });
@@ -354,9 +359,14 @@ namespace SrbComercialInfrastructure.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("longtext");
 
+                    b.Property<int>("StateId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CityId");
+
+                    b.HasIndex("StateId");
 
                     b.ToTable("Suppliers");
                 });
@@ -431,7 +441,15 @@ namespace SrbComercialInfrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("SrbComercialDomain.Entities.State", "State")
+                        .WithMany()
+                        .HasForeignKey("StateId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("City");
+
+                    b.Navigation("State");
                 });
 
             modelBuilder.Entity("SrbComercialDomain.Entities.Product", b =>
@@ -453,7 +471,15 @@ namespace SrbComercialInfrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("SrbComercialDomain.Entities.State", "State")
+                        .WithMany()
+                        .HasForeignKey("StateId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("City");
+
+                    b.Navigation("State");
                 });
 
             modelBuilder.Entity("SrbComercialDomain.Entities.Category", b =>
