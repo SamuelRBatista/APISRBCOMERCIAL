@@ -9,6 +9,8 @@ public interface IUnitOfWork : IDisposable
 
     ICityRepository City {get;}
 
+    IStateRepository State { get; }
+
     ISupplierRepository Supplier {get;}
 
     IClientRepository Client {get;}
