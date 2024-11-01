@@ -17,15 +17,15 @@ public class ClientController : ControllerBase
         _unitOfWork = unitOfWork;
     }
 
-     [HttpGet(Name = "GetClient"), Authorize]
+     [HttpGet(Name = "GetClient")/*, Authorize*/]
     public IActionResult Index()
     {
         var clients = _unitOfWork.Client.GetAll();
         return Ok(clients);
     }
 
-    // POST: api/category
-    [HttpPost(Name = "CreateClient"), Authorize]
+
+    [HttpPost(Name = "CreateClient")/*, Authorize*/]
     public IActionResult Create(Client client)
     {
         if ( client == null)
@@ -45,7 +45,7 @@ public class ClientController : ControllerBase
         return CreatedAtAction(nameof(Index), new { id =  client.Id },  client);
     }
 
-    [HttpPut("{id}",Name = "UpdateClient"), Authorize]
+    [HttpPut("{id}",Name = "UpdateClient")/*, Authorize*/]
     public IActionResult Update(int id, Client client)
     {
         if (id != client.Id)
@@ -69,7 +69,7 @@ public class ClientController : ControllerBase
         }
     }
 	
-    [HttpDelete("{id}",Name = "DeleteClient"), Authorize]
+    [HttpDelete("{id}",Name = "DeleteClient")/*, Authorize*/]
     public IActionResult Delete(int id)
         {
             var client = _unitOfWork.Client.Get(p => p.Id == id);

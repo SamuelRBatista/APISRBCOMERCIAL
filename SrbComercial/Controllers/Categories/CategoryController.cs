@@ -25,7 +25,7 @@ namespace SrbComercial.Controllers.Categories
         }
 
 		// POST: api/category
-		[HttpPost(Name = "CreateCategory"),Authorize]
+		[HttpPost(Name = "CreateCategory")/*,Authorize*/]
 		public IActionResult Create(Category category)
 		{
 			if (category == null)
